@@ -671,4 +671,14 @@ footer {
   text-align: center;
   padding: 15px;
   font-weight: bold;
+  width: 100%;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+@media (max-width: 600px) {
+  .announcement-banner {
+    padding: 10px;
+    font-size: 1rem;
+  }
 }
